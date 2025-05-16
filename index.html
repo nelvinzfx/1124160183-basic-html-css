@@ -89,7 +89,19 @@
         color: white;
       }
     }
-    
+
+    /* ### TRANSFORMASI DAN ANIMASI ### */
+    .animated-box {
+      width: 100px;
+      height: 100px;
+      background-color: purple;
+      margin: 20px auto;
+      transition: transform 0.5s; /* Animasi perubahan transform */
+    }
+
+    .animated-box:hover {
+      transform: rotate(15deg) scale(1.2); /* Efek rotasi dan perbesaran saat hover */
+    }
   </style>
 </head>
 <body>
